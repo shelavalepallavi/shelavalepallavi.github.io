@@ -226,8 +226,8 @@ document.getElementById('contactForm').addEventListener('submit', async function
 
 
 // footer.js
-const footerLogoSrc = '../../assets/footer_logo.svg'; // Update with the correct path if necessary
-const userIconSrc = '../../assets/user_icon.svg'; // Update with the correct path if necessary
+const footerLogoSrc = 'assets/footer_logo.svg'; // Update with the correct path if necessary
+const userIconSrc = 'assets/user_icon.svg'; // Update with the correct path if necessary
 
 function createFooter() {
     const footer = document.createElement('div');
