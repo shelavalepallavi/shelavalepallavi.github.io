@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="navbar">
+    <h1>Portfolio</h1>
+    <img src="./assets/menu_open.svg" alt="" class="nav-mob-open" id="openMenuButton" />
+    <ul class="nav-menu" id="menuRef">
+      <img src="./assets/menu_close.svg" alt="" class="nav-mob-close" id="closeMenuButton" />
+      <li><a class="anchor-link" href="#home" id="homeLink"><p>Home</p></a><img src="./assets/nav_underline.svg" alt="" class="underline" id="underline-home" /></li>
+      <li><a class="anchor-link" href="#about" id="aboutLink"><p>About me</p></a><img src="./assets/nav_underline.svg" alt="" class="underline" id="underline-about" /></li>
+      <li><a class="anchor-link" href="#services" id="servicesLink"><p>Services</p></a><img src="./assets/nav_underline.svg" alt="" class="underline" id="underline-services" /></li>
+      <li><a class="anchor-link" href="#work" id="workLink"><p>Portfolio</p></a><img src="./assets/nav_underline.svg" alt="" class="underline" id="underline-work" /></li>
+      <li><a class="anchor-link" href="#contact" id="contactLink"><p>Contact</p></a><img src="./assets/nav_underline.svg" alt="" class="underline" id="underline-contact" /></li>
+    </ul>
+    <div class="nav-connect">
+      <a class="anchor-link" href="#contact">Connect with me</a>
+    </div>
+  </div>
+
+
+  <div id="home" class="hero">
+    <img src="assets/profile.jpeg" alt="">
+    <h1><span>I'm Pallavi Shelavale,</span> frontend developer based in India.</h1>
+    <p>I am a passionate frontend developer from Maharashtra, India, with a strong foundation in modern web technologies. 
+    I have worked on several academic and personal projects, demonstrating my ability to build responsive, user-friendly web applications.</p>
+    <div class="hero-action">
+      <div class="hero-connect"><a class="anchor-link" href="#contact">Connect with me</a></div>
+      <div class="hero-resume">My resume</div>
+    </div>
+  </div>
+
+
+  <div class="about" id="about">
+    <div class="about-title">
+      <h1>About me</h1>
+      <img src="assets/theme_pattern.svg" alt="">
+    </div>
+
+    <div class="about-sections">
+      <div class="about-left">
+        <img src="assets/profile.jpeg" alt="">
+      </div>
+      <div class="about-right">
+        <div class="about-para">
+          <p>
+            I am a passionate Frontend Developer with a strong foundation in web development technologies.
+            I have gained valuable skills through my education and personal projects, and I am eager to contribute
+            to a team. I am excited about the opportunity to apply my knowledge in a professional setting and to learn
+            from experienced colleagues while helping to drive project success.
+          </p>
+          <p>
+            My passion for frontend is not only reflected in my extensive experience but also in the enthusiasm and dedication
+            I bring to each project.
+          </p>
+        </div>
+        <div class="about-skills">
+          <div class="about-skill">
+            <p>HTML & CSS</p>
+            <hr style="width: 70%;">
+          </div>
+          <div class="about-skill">
+            <p>React JS</p>
+            <hr style="width: 60%;">
+          </div>
+          <div class="about-skill">
+            <p>JavaScript</p>
+            <hr style="width: 60%;">
+          </div>
+          <div class="about-skill">
+            <p>Express JS</p>
+            <hr style="width: 50%;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-achievements">
+      <div class="about-achievement">
+        <h1>5+</h1>
+        <p>TECHNOLOGIES LEARNED</p>
+      </div>
+      <hr>
+      <div class="about-achievement">
+        <h1>3+</h1>
+        <p>PERSONAL PROJECTS</p>
+      </div>
+      <hr>
+      <div class="about-achievement">
+        <h1>100%</h1>
+        <p>PASSION FOR LEARNING</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="services" class="services">
+    <div class="services-title">
+      <h1>My Services</h1>
+      <img src="assets/theme_pattern.svg" alt="">
+    </div>
+    <div class="services-container" id="services-container">
+      <!-- Services will be rendered here via JavaScript -->
+    </div>
+  </div>
+
+
+
+  <div id="work" class="mywork">
+    <div class="my-work-title">
+      <h1>My latest work</h1>
+      <img src="assets/theme_pattern.svg" alt="">
+    </div>
+
+    <div class="mywork-container" id="myworkContainer">
+      <!-- Work images will be inserted here -->
+    </div>
+
+    <div class="mywork-showmore">
+      <p>Show More</p>
+      <img src="assets/arrow_icon.svg" alt="">
+    </div>
+  </div>
+
+
+  <div id="contact" class="contact">
+    <div class="contact-title">
+        <h1>Get in touch</h1>
+        <img src="assets/theme_pattern.svg" alt="">
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-left">
+            <h1>Let's talk</h1>
+            <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.</p>
+            <div class="contact-details">
+                <div class="contact-detail">
+                    <img src="assets/mail_icon.svg" alt=""> 
+                    <p>pallavishelavale3795@gmail.com</p>
+                </div>
+                <div class="contact-detail">
+                    <img src="assets/call_icon.svg" alt=""> 
+                    <p>9607872778</p>
+                </div>
+                <div class="contact-detail">
+                    <img src="assets/location_icon.svg" alt=""> 
+                    <p>Thane, Maharashtra, India</p>
+                </div>
+            </div>
+        </div>
+
+        <form id="contactForm" class="contact-right">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" name="name">
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" name="email">
+
+            <label for="message">Write your message here</label>
+            <textarea id="message" name="message" rows="8" placeholder="Enter your message"></textarea>
+
+            <button type="submit" class="contact-submit">Submit now</button>
+        </form>
+    </div>
+</div>
+
+
+<div id="footer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
