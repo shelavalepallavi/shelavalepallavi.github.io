@@ -25,6 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
       underline: document.getElementById('underline-contact')
     }
   };
+  document.getElementById('resume-btn').addEventListener('click', function() {
+    window.open('assets/PALLAVI SHELAVALE  RESUME.pdf', '_blank'); // adjust path to your resume
+});
+
 
   let currentMenu = 'home';
 
@@ -97,10 +101,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const Service_Data = [
     { s_no: "01", s_name: "Web Design", s_desc: "Creating visually appealing and user-friendly website..." },
     { s_no: "02", s_name: "Frontend Development", s_desc: "Building responsive and interactive web applications..." },
-    { s_no: "03", s_name: "UI/UX Design", s_desc: "Designing intuitive user interfaces and experiences..." },
-    { s_no: "04", s_name: "Mobile App Design", s_desc: "Designing and developing mobile-friendly applications..." },
+    { s_no: "03", s_name: "Frontend with React.js", s_desc: "Developing responsive user interfaces using React.js..." },
+    { s_no: "04", s_name: "API Integration", s_desc: "Integrating third-party APIs and building custom APIs to extend functionality..." },
     { s_no: "05", s_name: "Website Optimization", s_desc: "Improving website performance and load times..." },
-    { s_no: "06", s_name: "Content Management Systems", s_desc: "Building and customizing CMS solutions..." }
+    { s_no: "06", s_name: "Database Management", s_desc: "Handling data storage and retrieval using MongoDB for efficient performance..." },
   ];
 
   const servicesContainer = document.getElementById('services-container');
@@ -148,32 +152,32 @@ const mywork_data = [
   {
       w_no: 1,
       w_name: "Web design",
-      w_img: 'assets/project_1.svg'  // Direct path to the image file
+      w_img: 'assets/project1.png'  // Direct path to the image file
   },
   {
       w_no: 2,
       w_name: "Web design",
-      w_img: 'assets/project_2.svg'
+      w_img: 'assets/project2.png'
   },
   {
       w_no: 3,
       w_name: "Web design",
-      w_img: 'assets/project_3.svg'
+      w_img: 'assets/project3.png'
   },
   {
       w_no: 4,
       w_name: "Web design",
-      w_img: 'assets/project_4.svg'
+      w_img: 'assets/project4.png'
   },
   {
       w_no: 5,
       w_name: "Web design",
-      w_img: 'assets/project_5.svg'
+      w_img: 'assets/project5.png'
   },
   {
       w_no: 6,
       w_name: "Web design",
-      w_img: 'assets/project_6.svg'
+      w_img: 'assets/project6.png'
   }
 ];
 
