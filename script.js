@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
   document.getElementById('resume-btn').addEventListener('click', function() {
-    window.open('assets/PALLAVI SHELAVALE  RESUME.pdf', '_blank'); // adjust path to your resume
+    window.open('assets/Pallavi Shelavale Resume.pdf', '_blank'); // adjust path to your resume
 });
 
 
