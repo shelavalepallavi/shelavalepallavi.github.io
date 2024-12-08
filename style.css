@@ -200,7 +200,7 @@ body{
 }
 .about-title h1{
   padding: 0 30px;
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 600;
 }
 .about-title img{
@@ -222,7 +222,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 .about-skills{
@@ -354,7 +354,7 @@ body{
 }
 .services-title h1{
   padding: 0 30px;
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 600;
 }
 .services-title img{
@@ -462,7 +462,7 @@ body{
 }
 .mywork-title h1{
   padding: 0px 30px;
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 600;
 }
 .mywork-title img{
@@ -553,7 +553,7 @@ body{
 }
 .contact-title h1{
   padding: 0 30px;
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 600;
 }
 .contact-title img{
@@ -572,7 +572,7 @@ body{
   gap: 30px;
 }
 .contact-left h1{
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 700;
   background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
   background-clip: text;
@@ -611,7 +611,7 @@ body{
 .contact-right input{
   border: none;
   width: 700;
-  height: 78px;
+  height: 60px;
   padding-left: 20px;
   border-radius: 4px;
   background: #323232;
@@ -620,7 +620,7 @@ body{
   font-size: 20px;
 }
 .contact-right textarea{
-  width: 650px;
+  width: 500px;
   border: none;
   padding: 25px;
   border-radius: 4px;
@@ -628,6 +628,7 @@ body{
   color: #A0A0A0;
   font-family: outfit;
   font-size: 20px;
+  resize: none;
 }
 .contact-submit{
   border: none;
