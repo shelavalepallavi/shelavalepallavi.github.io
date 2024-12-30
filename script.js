@@ -271,7 +271,7 @@ function createFooter() {
 
     const subscribeButton = document.createElement('div');
     subscribeButton.className = 'footer-subscribe';
-    subscribeButton.textContent = 'Subscribe';
+    subscribeButton.textContent = 'Submit';
 
     footerTopRight.appendChild(subscribeButton);
     footerTop.appendChild(footerTopLeft);
