@@ -100,11 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener('DOMContentLoaded', () => {
   const Service_Data = [
     { s_no: "01", s_name: "Web Design", s_desc: "Creating visually appealing and user-friendly website..." },
-    { s_no: "02", s_name: "Frontend Development", s_desc: "Building responsive and interactive web applications..." },
-    { s_no: "03", s_name: "Frontend with React.js", s_desc: "Developing responsive user interfaces using React.js..." },
-    { s_no: "04", s_name: "API Integration", s_desc: "Integrating third-party APIs and building custom APIs to extend functionality..." },
-    { s_no: "05", s_name: "Website Optimization", s_desc: "Improving website performance and load times..." },
-    { s_no: "06", s_name: "Database Management", s_desc: "Handling data storage and retrieval using MongoDB for efficient performance..." },
+    { s_no: "02", s_name: "Frontend Development", s_desc: "Building responsive and interactive web..." },
+    { s_no: "03", s_name: "Frontend with React.js", s_desc: "Developing responsive user interfaces..." },
+    { s_no: "04", s_name: "API Integration", s_desc: "Integrating third-party APIs and building custom APIs..." },
+    { s_no: "05", s_name: "Website Optimization", s_desc: "Improving  performance and load times..." },
+    { s_no: "06", s_name: "Database Management", s_desc: "Handling data storage using MongoDB..." },
   ];
 
   const servicesContainer = document.getElementById('services-container');
@@ -125,15 +125,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const readMoreDiv = document.createElement('div');
     readMoreDiv.classList.add('service-readmore');
 
-    const readMoreText = document.createElement('p');
-    readMoreText.textContent = 'Read More';
+    // const readMoreText = document.createElement('p');
+    // readMoreText.textContent = 'Read More';
 
-    const arrowIcon = document.createElement('img');
-    arrowIcon.src = 'assets/arrow_icon.svg';
-    arrowIcon.alt = '';
+    // const arrowIcon = document.createElement('img');
+    // arrowIcon.src = 'assets/arrow_icon.svg';
+    // arrowIcon.alt = '';
 
-    readMoreDiv.appendChild(readMoreText);
-    readMoreDiv.appendChild(arrowIcon);
+    // readMoreDiv.appendChild(readMoreText);
+    // readMoreDiv.appendChild(arrowIcon);
 
     serviceDiv.appendChild(serviceNumber);
     serviceDiv.appendChild(serviceName);
@@ -147,49 +147,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Simulating data with direct paths to images
+
 const mywork_data = [
   {
-      w_no: 1,
-      w_name: "Web design",
-      w_img: 'assets/project1.png'  // Direct path to the image file
-  },
-  {
-      w_no: 2,
-      w_name: "Web design",
-      w_img: 'assets/project2.png'
-  },
-  {
-      w_no: 3,
-      w_name: "Web design",
-      w_img: 'assets/project3.png'
-  },
-  {
-      w_no: 4,
-      w_name: "Web design",
-      w_img: 'assets/project4.png'
-  },
-  {
-      w_no: 5,
-      w_name: "Web design",
-      w_img: 'assets/project5.png'
-  },
-  {
-      w_no: 6,
-      w_name: "Web design",
-      w_img: 'assets/project6.png'
-  }
+    w_no: 1,
+    w_name: "Web design",
+    w_img: 'assets/project1.png',
+    w_link: 'https://idyllic-kleicha-6f5521.netlify.app' 
+},
+{
+    w_no: 2,
+    w_name: "Web design",
+    w_img: 'assets/project2.png',
+    w_link: 'https://glittering-cajeta-7454cd.netlify.app' 
+},
+{
+    w_no: 3,
+    w_name: "Web design",
+    w_img: 'assets/project3.png',
+    w_link: 'https://beamish-kheer-5d9e30.netlify.app' 
+},
+{
+    w_no: 4,
+    w_name: "Web design",
+    w_img: 'assets/project4.png',
+    w_link: '#'
+},
+{
+    w_no: 5,
+    w_name: "Web design",
+    w_img: 'assets/project5.png',
+    w_link: '#' 
+},
+{
+    w_no: 6,
+    w_name: "Web design",
+    w_img: 'assets/project6.png',
+    w_link: 'https://noteverse-app.netlify.app/' 
+}
 ];
 
-// Selecting the container for displaying the work images
+
 const myworkContainer = document.getElementById('myworkContainer');
 
-// Dynamically inserting work images into the container
+
 mywork_data.forEach((work, index) => {
+  const linkElement = document.createElement('a'); 
+  linkElement.href = work.w_link; 
+  linkElement.target = '_blank'; 
+
   const imgElement = document.createElement('img');
   imgElement.src = work.w_img;
   imgElement.alt = `Work Image ${index + 1}`;
-  myworkContainer.appendChild(imgElement);
+  imgElement.style.cursor = 'pointer';
+
+  linkElement.appendChild(imgElement);
+  myworkContainer.appendChild(linkElement);
 });
 
 
@@ -227,89 +240,3 @@ document.getElementById('contactForm').addEventListener('submit', async function
   }
 });
 
-
-
-// footer.js
-const footerLogoSrc = 'assets/footer_logo.svg'; // Update with the correct path if necessary
-const userIconSrc = 'assets/user_icon.svg'; // Update with the correct path if necessary
-
-function createFooter() {
-    const footer = document.createElement('div');
-    footer.className = 'footer';
-
-    const footerTop = document.createElement('div');
-    footerTop.className = 'footer-top';
-
-    const footerTopLeft = document.createElement('div');
-    footerTopLeft.className = 'footer-top-left';
-
-    const heading = document.createElement('h2');
-    heading.textContent = 'P a l l a v i';
-    footerTopLeft.appendChild(heading);
-
-    const description = document.createElement('p');
-    description.textContent = "I'm Pallavi Shelavale, frontend developer based in India.";
-    footerTopLeft.appendChild(description);
-
-    const footerTopRight = document.createElement('div');
-    footerTopRight.className = 'footer-top-right';
-
-    const footerEmailInput = document.createElement('div');
-    footerEmailInput.className = 'footer-email-input';
-
-    const userIcon = document.createElement('img');
-    userIcon.src = userIconSrc;
-    userIcon.alt = '';
-
-    const emailInput = document.createElement('input');
-    emailInput.type = 'email';
-    emailInput.placeholder = 'Enter your email';
-
-    footerEmailInput.appendChild(userIcon);
-    footerEmailInput.appendChild(emailInput);
-    footerTopRight.appendChild(footerEmailInput);
-
-    const subscribeButton = document.createElement('div');
-    subscribeButton.className = 'footer-subscribe';
-    subscribeButton.textContent = 'Submit';
-
-    footerTopRight.appendChild(subscribeButton);
-    footerTop.appendChild(footerTopLeft);
-    footerTop.appendChild(footerTopRight);
-
-    const separator = document.createElement('hr');
-
-    const footerBottom = document.createElement('div');
-    footerBottom.className = 'footer-bottom';
-
-    const footerBottomLeft = document.createElement('p');
-    footerBottomLeft.className = 'footer-bottom-left';
-    footerBottomLeft.innerHTML = '&copy; 2024 Pallavi Shelavale. All rights reserved.';
-
-    const footerBottomRight = document.createElement('div');
-    footerBottomRight.className = 'footer-bottom-right';
-
-    const termsOfService = document.createElement('p');
-    termsOfService.textContent = 'Term of Services';
-    
-    const privacyPolicy = document.createElement('p');
-    privacyPolicy.textContent = 'Privacy Policy';
-    
-    const connectWithMe = document.createElement('p');
-    connectWithMe.textContent = 'Connect with me';
-
-    footerBottomRight.appendChild(termsOfService);
-    footerBottomRight.appendChild(privacyPolicy);
-    footerBottomRight.appendChild(connectWithMe);
-
-    footerBottom.appendChild(footerBottomLeft);
-    footerBottom.appendChild(footerBottomRight);
-
-    footer.appendChild(footerTop);
-    footer.appendChild(separator);
-    footer.appendChild(footerBottom);
-
-    document.getElementById('footer').appendChild(footer);
-}
-
-createFooter();
