@@ -156,6 +156,8 @@ body{
   border-radius: 50px;
   background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
   cursor: pointer;
+  transition: 0.3s;
+
 }
 .hero-resume{
   padding: 25px 75px;
@@ -164,7 +166,8 @@ body{
   cursor: pointer;
 }
 .hero-connect:hover{
-  border: 2px solid white;
+  transform: scale(1.05);
+
 }
 .hero-resume:hover{
   border-color: #B415FF;
@@ -720,6 +723,9 @@ body{
   align-items: center;
   gap: 20px;
 }
+.contact-detail p, img{
+  cursor: pointer;
+}
 .contact-right{
   display: flex;
   flex-direction: column;
@@ -886,6 +892,9 @@ body{
   display: flex;
   gap: 50px;
   margin-bottom: 50px;
+}
+.footer-bottom-right p{
+  cursor: pointer;
 }
 .footer-email-input:hover{
   border: 2px solid white;
