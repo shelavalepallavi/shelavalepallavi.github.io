@@ -18,26 +18,28 @@
   </div>
 
   <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
-    <a href="#top" class="dark:hidden"><img src="./images/pallavi-high-resolution-logo-transparent.png" alt=""  class="w-28 cursor-pointer mr-14 "></a>
+    <div class="hover:scale-110 duration-500">
+      <a href="#top" class="dark:hidden"><img src="./images/pallavi-high-resolution-logo-transparent.png" alt=""  class="w-28 cursor-pointer mr-14 "></a>
     <a href="#top" class="hidden dark:block"><img src="./images/pallavi-high-resolution-logo-transparent-dark.png" alt=""  class="w-28 cursor-pointer mr-14 "></a>
+    </div>
 
     <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 shadow-sm bg-opacity-50 font-Ovo 
     dark:border dark:border-white/50 dark:bg-transparent
     ">
-      <li><a href="#top" class="">Home</a></li>
-      <li><a href="#about">About me</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#work">My Work</a></li>
-      <li><a href="#contact">Contact me</a></li>
+      <li class="hover:scale-110 duration-500"><a href="#top" class="">Home</a></li>
+      <li class="hover:scale-110 duration-500"><a href="#about">About me</a></li>
+      <li class="hover:scale-110 duration-500"><a href="#services">Services</a></li>
+      <li class="hover:scale-110 duration-500"><a href="#work">My Work</a></li>
+      <li class="hover:scale-110 duration-500"><a href="#contact">Contact me</a></li>
     </ul>
 
     <div class="flex items-center gap-4">
-      <button onclick="toggleTheme()">
+      <button onclick="toggleTheme()" class="hover:bg-fuchsia-100 p-3 rounded-3xl dark:hover:bg-darkHover duration-500 hover:scale-110">
         <img src="./images/moon_icon.png" alt="dark" class="w-6 cursor-pointer dark:hidden">
         <img src="./images/sun_icon.png" alt="dark" class="w-6 cursor-pointer hidden dark:block">
       </button>
 
-    <a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover">
+    <a href="#contact" class="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo hover:bg-fuchsia-100 duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover hover:scale-110">
       Contact
       <img src="./images/arrow-icon.png" alt="arrow" class="w-3 dark:hidden">
       <img src="./images/arrow-icon-dark.png" alt="arrow" class="w-3 hidden dark:block">
@@ -69,16 +71,16 @@
   <!-- header -->
 
   <div class="w-11/12 max-w-3xl mx-auto h-screen flex flex-col items-center justify-center gap-4 text-center">
-    <img src="./images/profile-img.png" alt="" class="rounded-full w-32">
+    <img src="./images/profile-img.png" alt="" class="rounded-full w-32 duration-500 hover:scale-110">
     <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">Hi! I'm Pallavi Shelavale <img src="./images/hand-icon.png" alt="hii" class="w-6"></h3>
     <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Frontend web developer based in India.</h1>
     <p class="max-w-2xl mx-auto font-Ovo">I am a passionate frontend developer from Maharashtra, India, with a strong foundation in modern web technologies.</p>
 
     <div class="flex flex-col sm:flex-row gap-4 mt-4">
-      <a href="#contact" class="px-10 py-3 bg-black text-white rounded-full border border-white flex  items-center gap-2 dark:bg-[#11001F]">Contact me
+      <a href="#contact" class="px-10 py-3 bg-black text-white rounded-full border border-white flex  items-center gap-2 dark:bg-[#11001F] hover:-translate-y-2 duration-500">Contact me
         <img src="./images/right-arrow-white.png" alt="" class="w-4">
       </a>
-      <a href="./images/Pallavi Shelavale Resume.pdf" download class="px-10 py-3 bg-white text-black rounded-full border border-gray-500 flex  items-center gap-2 hover:bg-lightHover duration-500">My resume
+      <a href="./images/Pallavi Shelavale Resume.pdf" download class="px-10 py-3 bg-white text-black rounded-full border border-gray-500 flex  items-center gap-2 hover:bg-lightHover duration-500 hover:-translate-y-2 ">My resume
         <img src="./images/download-icon.png" alt="" class="w-4">
       </a>
     </div>
@@ -125,32 +127,32 @@
 
           <h4 class="my-6 text-gray-700 font-Ovo dark:text-white">Tools & technologies I use</h4>
           <ul class="flex items-center gap-3 sm:gap-5 flex-wrap">
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/vscode.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/vite.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/netlify.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/github.png" alt="vscode" class="w-5 sm:w-7 dark:hidden">
               <img src="./images/github-white.png" alt="vscode" class="w-5 sm:w-7 hidden dark:block">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/git.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/react.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/bootstrap.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/tailwind.png" alt="vscode" class="w-5 sm:w-7">
             </li>
-            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
+            <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-2 duration-500">
               <img src="./images/mongodb.png" alt="vscode" class="w-5 sm:w-7">
             </li>
           </ul>
@@ -203,6 +205,17 @@
       <p class="text-center mx-auto max-w-2xl mt-5 mb-12 font-Ovo ">Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development.</p>
 
       <div class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] my-10 gap-5 dark:text-black">
+        <div class=" aspect-square bg-[url('./images/work-4.png')] bg-no-repeat bg-cover bg-center rounded-md relative cursor-pointer group">
+          <div class="bg-white absolute w-10/12 rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+            <div>
+              <a class="font-semibold" href="https://shelavalepallavi.github.io/ui-design/index.html" target="_blank">UI Design</a>
+              <p class="text-sm text-gray-700">Web Design</p>
+            </div>
+            <div class="border border-black w-9 aspect-square rounded-full flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+              <a href="https://shelavalepallavi.github.io/ui-design/index.html" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
+            </div>
+          </div>
+        </div>
         <div class=" aspect-square bg-[url('./images/work-1.png')] bg-no-repeat bg-cover bg-center rounded-md relative cursor-pointer group">
           <div class="bg-white absolute w-10/12 rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
             <div>
@@ -217,38 +230,27 @@
         <div class=" aspect-square bg-[url('./images/work-2.png')] bg-no-repeat bg-cover bg-center rounded-md relative cursor-pointer group">
           <div class="bg-white absolute w-10/12 rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
             <div>
-              <a href="https://shortpoint.vercel.app" target="_blank" class="font-semibold">Url Shortner</a>
+              <a href="https://carfinder-two.vercel.app" target="_blank" class="font-semibold">CarFinder</a>
               <p class="text-sm text-gray-700">Web app</p>
             </div>
             <div class="border border-black w-9 aspect-square rounded-full flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-              <a href="https://shortpoint.vercel.app" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
+              <a href="https://carfinder-two.vercel.app" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
             </div>
           </div>
         </div>
         <div class=" aspect-square bg-[url('./images/work-3.png')] bg-no-repeat bg-cover bg-center rounded-md relative cursor-pointer group">
           <div class="bg-white absolute w-10/12 rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
             <div>
-              <a href="https://credlock.netlify.app" target="_blank" class="font-semibold">Pass Manager</a>
-              <p class="text-sm text-gray-700"> Secure App</p>
+              <a href="https://schedule-lecture.netlify.app" target="_blank" class="font-semibold">Lecture Scheduler</a>
+              <p class="text-sm text-gray-700">Learning App</p>
             </div>
             <div class="border border-black w-9 aspect-square rounded-full flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-              <a href="https://credlock.netlify.app" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
-            </div>
-          </div>
-        </div>
-        <div class=" aspect-square bg-[url('./images/work-4.png')] bg-no-repeat bg-cover bg-center rounded-md relative cursor-pointer group">
-          <div class="bg-white absolute w-10/12 rounded-md bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-            <div>
-              <a class="font-semibold" href="https://home-vibes.netlify.app" target="_blank">Home Design</a>
-              <p class="text-sm text-gray-700">Web Design</p>
-            </div>
-            <div class="border border-black w-9 aspect-square rounded-full flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-              <a href="https://home-vibes.netlify.app" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
+              <a href="https://schedule-lecture.netlify.app" target="_blank"><img src="./images/send-icon.png" alt="" class="w-5 "></a>
             </div>
           </div>
         </div>
       </div>
-      <a href="https://github.com/shelavalepallavi" target="_blank" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover">Show more
+      <a href="https://github.com/shelavalepallavi" target="_blank" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover hover:-translate-y-2">Show more
         <img src="./images/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
         <img src="./images/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
       </a>
@@ -268,7 +270,7 @@
             <input type="text" name="email" placeholder="Enter your name" class="p-3 border-[0.5px] outline-none border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90" required>
           </div>
           <textarea placeholder="Enter your text" name="message" rows="6" class="bg-white border-[0.5px] border-gray-400 w-full rounded-md outline-none p-4 mb-6 dark:bg-darkHover/30 dark:border-white/90" required></textarea>
-          <button class="mx-auto w-max bg-black/80 text-white px-8 py-3 rounded-full flex items-center justify-between gap-2 hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover">Submit now
+          <button class="mx-auto w-max bg-black/80 text-white px-8 py-3 rounded-full flex items-center justify-between gap-2 hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover hover:scale-110">Submit now
             <img src="./images/right-arrow-white.png" alt="" class="w-4">
           </button>
          </form>
@@ -277,19 +279,19 @@
     <!-- footer -->
      <div class="mt-20">
       <div class="text-center">
-        <img src="./images/pallavi-high-resolution-logo-transparent.png" alt="" class="w-36 mx-auto mb-2 dark:hidden">
-        <img src="./images/pallavi-high-resolution-logo-transparent-dark.png" alt="" class="w-36 mx-auto mb-2 hidden dark:block">
+        <img src="./images/pallavi-high-resolution-logo-transparent.png" alt="" class="w-36 mx-auto mb-2 dark:hidden hover:-translate-y-2 duration-500">
+        <img src="./images/pallavi-high-resolution-logo-transparent-dark.png" alt="" class="w-36 mx-auto mb-2 hidden dark:block hover:-translate-y-2 duration-500">
         <div class="flex items-center gap-2 mx-auto w-max">
-          <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden">
+          <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden duration-500 hover:-translate-y-2 cursor-pointer">
           <img src="./images/mail_icon_dark.png" alt="" class="w-6 hidden dark:block">
-          pallavishelavale3795@gmail.com
+          <span class=" hover:text-blue-600 duration-500">pallavishelavale3795@gmail.com</span>
         </div>
       </div>
       <div class="text-center sm:flex items-center justify-between mx-[10%] mt-12 py-6 border-t border-gray-400" >
-        <p>@ 2025 Pallavi Shelavale. </p>
+        <p class=" hover:text-blue-600 duration-500">@ 2025 Pallavi Shelavale. </p>
         <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-          <li><a href="https://github.com/shelavalepallavi" target="_blank">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/pallavi-shelavale-5a5540333" target="_blank">LinkedIn</a></li>
+          <li class="hover:bg-fuchsia-100 px-2 rounded-md border border-transparent  hover:border-fuchsia-300 duration-500 hover:-translate-y-2"><a href="https://github.com/shelavalepallavi" target="_blank">Github</a></li>
+          <li class="hover:bg-fuchsia-100 px-2 rounded-md border border-transparent  hover:border-fuchsia-300 duration-500 hover:-translate-y-2"><a href="https://www.linkedin.com/in/pallavi-shelavale-5a5540333" target="_blank">LinkedIn</a></li>
         </ul>
       </div>
      </div>
