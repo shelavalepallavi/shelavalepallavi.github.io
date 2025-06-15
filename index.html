@@ -9,6 +9,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+<style>
+  .border-animation::before {
+    content: "";
+    position: absolute;
+    inset: -1px; /* Adjust thickness */
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background:  conic-gradient(#d3c3ef 80%, #d92fef 88%, #ee16e7 92%, #d3c3ef 100%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    /* padding: 1px; */
+    z-index: 0;
+    animation: spin 3s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+</style>
 </head>
 
 <body class="overflow-x-hidden leading-8 dark:bg-darkTheme dark:text-white">
@@ -71,7 +95,12 @@
   <!-- header -->
 
   <div class="w-11/12 max-w-3xl mx-auto h-screen flex flex-col items-center justify-center gap-4 text-center">
-    <img src="./images/profile-img.png" alt="" class="rounded-full w-32 duration-500 hover:scale-110">
+   <div class="relative w-32 h-32 group">
+  <div class="w-full h-full rounded-full overflow-hidden border-animation">
+    <img src="./images/profile-img.png" alt="" class="w-full h-full object-cover" />
+  </div>
+</div>
+
     <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">Hi! I'm Pallavi Shelavale <img src="./images/hand-icon.png" alt="hii" class="w-6"></h3>
     <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Frontend web developer based in India.</h1>
     <p class="max-w-2xl mx-auto font-Ovo">I am a passionate frontend developer from Maharashtra, India, with a strong foundation in modern web technologies.</p>
