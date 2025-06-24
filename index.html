@@ -13,16 +13,15 @@
   .border-animation::before {
     content: "";
     position: absolute;
-    inset: -1px; /* Adjust thickness */
+    inset: -1px; 
     border-radius: 9999px;
     border: 2px solid transparent;
-    background:  conic-gradient(#d3c3ef 80%, #d92fef 88%, #ee16e7 92%, #d3c3ef 100%);
+    background:  conic-gradient(#d3c3ef 80%, #d92fef 80%, #ee16e7 1%, #d3c3ef 100%);
     -webkit-mask: 
       linear-gradient(#fff 0 0) content-box, 
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
-    /* padding: 1px; */
     z-index: 0;
     animation: spin 3s linear infinite;
   }
