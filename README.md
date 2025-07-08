@@ -17,7 +17,7 @@ This is my personal **portfolio website** built using **HTML, JavaScript, and Ta
 ---
 
 ## 🚀 Tech Stack  
-- ✅ HTML5  
+- ✅ HTML
 - ✅ Tailwind CSS  
 - ✅ JavaScript  
 - ✅ Git & GitHub  
