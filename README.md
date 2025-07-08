@@ -2,7 +2,7 @@
 # 📁 Portfolio Website  
 
 ## 👩‍💻 About  
-This is my personal **portfolio website** built using **HTML, JavaScript, and Tailwind CSS**. It showcases my projects, skills, education, and contact details. The website is fully responsive and designed to help recruiters and clients understand my work and experience.  
+This is my personal **portfolio website** built using **HTML, JavaScript, and Tailwind CSS**. It showcases my projects, skills, education, and contact details. The website is fully responsive and designed to help recruiters and clients understand my work and experience
 
 
 ## 📸 Screenshots ✨
