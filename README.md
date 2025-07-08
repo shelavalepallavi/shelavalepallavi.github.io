@@ -36,7 +36,6 @@ This is my personal **portfolio website** built using **HTML, JavaScript, and Ta
 ✨ Detailed about section 
 ✨ Skill set and technologies displayed with icons or progress bars  
 ✨ Projects showcase with links to GitHub repositories and  Live deployed projects
-
 ✨ Education   
 ✨ Contact form that allows easy reach-out  
 ✨ Mobile-friendly layout 
