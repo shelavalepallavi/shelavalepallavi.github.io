@@ -32,13 +32,3 @@ This is my personal **portfolio website** built using **HTML, JavaScript, and Ta
 ✨ Contact form that allows easy reach-out  
 ✨ Mobile-friendly layout 
 
-
-
-
-📧 Contact
-
-📩 Email: pallavishelavale3795@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/pallavi-shelavale-5a5540333
-
-💻 GitHub: https://github.com/shelavalepallavi
